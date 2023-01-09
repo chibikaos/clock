@@ -19,8 +19,6 @@ def clock():
     l1.after(200, clock) # depois de 200 milesimos de segundos ele irá executar a função novamente
     l2.config(text=date)
 
-#tst
-
 l1 = Label(window, text="", font=("digital-7", 80), bg="#000000", fg="#FFFFFF", width=7)
 l1.grid(row=0, column=0)
 
